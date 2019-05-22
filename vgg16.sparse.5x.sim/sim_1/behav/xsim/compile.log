@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/new/fixed_2_float.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fixed_2_float
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/sources/lzc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LZC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/sources/pe_array1x3_lower.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pe_array1x3_lower
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/sources/pe_array1x3_middle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pe_array1x3_middle
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/sources/pe_array1x3_upper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pe_array1x3_upper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/sim/pe_array1x3_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pe_array1x3_tb

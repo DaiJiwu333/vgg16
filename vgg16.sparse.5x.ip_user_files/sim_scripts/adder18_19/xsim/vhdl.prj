@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../vgg16.sparse.5x.srcs/sources_1/ip/adder18_19/sim/adder18_19.vhd" \
+
+nosort

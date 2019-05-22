@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed May 22 09:46:51 2019
+# Process ID: 47158
+# Current directory: /home/daijw/vgg16.sparse.5x/vgg16.sparse.5x.runs/synth_1
+# Command line: vivado -log pe_array3x3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pe_array3x3.tcl
+# Log file: /home/daijw/vgg16.sparse.5x/vgg16.sparse.5x.runs/synth_1/pe_array3x3.vds
+# Journal file: /home/daijw/vgg16.sparse.5x/vgg16.sparse.5x.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source pe_array3x3.tcl -notrace

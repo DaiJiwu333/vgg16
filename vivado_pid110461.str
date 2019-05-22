@@ -1,0 +1,71 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:39:19 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 110461
+License: Customer
+
+Current time: 	Tue May 21 10:09:57 EDT 2019
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: CentOS Linux release 7.6.1810 (Core)
+OS Version: 3.10.0-957.12.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 64
+
+Display: :6
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 42 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/home/opt/Xilinx/Vivado/2018.1/tps/lnx64/jre
+Java executable location: 	/home/opt/Xilinx/Vivado/2018.1/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	daijw
+User home directory: /home/daijw
+User working directory: /home/daijw/vgg16.sparse.5x
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: /home/opt/Xilinx/Vivado
+HDI_APPROOT: /home/opt/Xilinx/Vivado/2018.1
+RDI_DATADIR: /home/opt/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: /home/opt/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: /home/daijw/.Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: /home/daijw/.Xilinx/Vivado/2018.1/
+Vivado layouts directory: /home/daijw/.Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	/home/opt/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/daijw/vgg16.sparse.5x/vivado.log
+Vivado journal file location: 	/home/daijw/vgg16.sparse.5x/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-110461-tr2990wx-fit4305
+
+GUI allocated memory:	132 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 5,115 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 69 MB (+69715kb) [00:00:06]
+// [Engine Memory]: 5,115 MB (+5212416kb) [00:00:06]
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // Z (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,125 MB. GUI used memory: 36 MB. Current time: 5/21/19 10:09:59 AM EDT
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_COMPILE_LIBRARIES, "Compile Simulation Libraries..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_COMPILE_LIBRARIES
+// e (ch): Compile Simulation Libraries: addNotify

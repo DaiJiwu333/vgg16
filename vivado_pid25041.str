@@ -1,0 +1,3004 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:39:19 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 25041
+License: Customer
+
+Current time: 	Tue May 21 19:31:41 CST 2019
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Ubuntu
+OS Version: 4.15.0-50-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 785 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/opt/Xilinx/Vivado/2018.1/tps/lnx64/jre
+Java executable location: 	/opt/Xilinx/Vivado/2018.1/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	dai
+User home directory: /home/dai
+User working directory: /home/dai/vgg16.sparse.5x
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2018.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: /home/dai/.Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: /home/dai/.Xilinx/Vivado/2018.1/
+Vivado layouts directory: /home/dai/.Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/dai/vgg16.sparse.5x/vivado.log
+Vivado journal file location: 	/home/dai/vgg16.sparse.5x/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-25041-dai-pc
+
+GUI allocated memory:	187 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 897 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.xpr", 0); // q (O, ch)
+// [GUI Memory]: 58 MB (+58234kb) [00:00:04]
+// [Engine Memory]: 860 MB (+749931kb) [00:00:04]
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: /home/dai/vgg16.sparse.5x/vgg16.sparse.5x.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/dai/vgg16.sparse.5x/vgg16.sparse.5x.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 65 MB (+4161kb) [00:00:06]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 999 MB (+100815kb) [00:00:07]
+// [GUI Memory]: 71 MB (+2897kb) [00:00:08]
+// Tcl Message: open_project /home/dai/vgg16.sparse.5x/vgg16.sparse.5x.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/daijw/vgg16.sparse.5x' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,025 MB. GUI used memory: 46 MB. Current time: 5/21/19 7:31:44 PM CST
+// Project name: vgg16.sparse.5x; location: /home/dai/vgg16.sparse.5x; part: xc7vx690tffg1761-2
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,049 MB (+687kb) [00:00:10]
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v)]", 2, false); // B (D, ch)
+selectCodeEditor("pe_array1x3_lower.v", 96, 363); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 81, 378); // cd (w, ch)
+// [GUI Memory]: 76 MB (+1724kb) [00:00:24]
+// [GUI Memory]: 84 MB (+4479kb) [00:00:46]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,106 MB (+4657kb) [00:01:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,107 MB. GUI used memory: 47 MB. Current time: 5/21/19 7:32:43 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,137 MB. GUI used memory: 47 MB. Current time: 5/21/19 7:33:23 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 101 seconds
+selectCodeEditor("pe_array1x3_lower.v", 70, 486); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 90 MB (+2124kb) [00:02:08]
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,170 MB (+8831kb) [00:02:09]
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "mult8_8_synth_1 ; mult8_8 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 0 ; 0 ; 0.0 ; 0 ; 1 ; Tue May 21 19:31:11 CST 2019 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2018) ; Vivado Synthesis Default Reports (Vivado Synthesis 2018) ; xc7vx690tffg1761-2 ; tr2990wx-fit4305 ; Vivado Synthesis Defaults", 3, "synth_design Complete!", 2, false); // ax (O, ch)
+// PAPropertyPanels.initPanels (mult8_8_synth_1) elapsed time: 0.3s
+// [GUI Memory]: 95 MB (+174kb) [00:02:10]
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "adder_hfp_synth_1 ; adder_hfp ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 159 ; 93 ; 0.0 ; 0 ; 2 ; Tue May 21 19:31:11 CST 2019 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2018) ; Vivado Synthesis Default Reports (Vivado Synthesis 2018) ; xc7vx690tffg1761-2 ; tr2990wx-fit4305 ; Vivado Synthesis Defaults", 4, (String) null, 8, false); // ax (O, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,174 MB. GUI used memory: 52 MB. Current time: 5/21/19 7:33:48 PM CST
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "adder_hfp_synth_1 ; adder_hfp ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 159 ; 93 ; 0.0 ; 0 ; 2 ; Tue May 21 19:31:11 CST 2019 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2018) ; Vivado Synthesis Default Reports (Vivado Synthesis 2018) ; xc7vx690tffg1761-2 ; tr2990wx-fit4305 ; Vivado Synthesis Defaults", 4, "0.0", 13, false); // ax (O, ch)
+// Elapsed time: 131 seconds
+selectCodeEditor("pe_array1x3_lower.v", 78, 315); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 54, 330); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 19, 342); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 22, 425); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 13, 398); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 16, 396); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 10, 395); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,223 MB. GUI used memory: 51 MB. Current time: 5/21/19 7:36:33 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,239 MB (+10809kb) [00:05:00]
+// [GUI Memory]: 102 MB (+1866kb) [00:05:10]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 51 MB. Current time: 5/21/19 7:36:58 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 68 seconds
+selectCodeEditor("pe_array1x3_lower.v", 46, 495); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_lower.v", 151, 427); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_lower.v", 149, 425); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,288 MB. GUI used memory: 51 MB. Current time: 5/21/19 7:37:18 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 1,304 MB (+3222kb) [00:05:46]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("pe_array1x3_lower.v", 41, 407); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 18, 447); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 6, 434); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 0, 444); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_lower.v", 112, 436); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_lower.v", 6, 465); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 0, 467); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_lower.v", 114, 447); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,385 MB. GUI used memory: 51 MB. Current time: 5/21/19 7:37:38 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,385 MB (+16360kb) [00:06:06]
+// Elapsed time: 32 seconds
+selectCodeEditor("pe_array1x3_lower.v", 275, 221); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 272, 202); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 272, 202, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 271, 199); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 271, 197); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 271, 193); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 271, 193, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 6, 263); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 3, 246); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 107 MB (+654kb) [00:07:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,417 MB. GUI used memory: 51 MB. Current time: 5/21/19 7:38:38 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,449 MB. GUI used memory: 51 MB. Current time: 5/21/19 7:38:53 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,466 MB (+12126kb) [00:07:26]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,482 MB. GUI used memory: 77 MB. Current time: 5/21/19 7:39:08 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,515 MB. GUI used memory: 51 MB. Current time: 5/21/19 7:40:08 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,547 MB (+8544kb) [00:09:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,547 MB. GUI used memory: 51 MB. Current time: 5/21/19 7:40:38 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,579 MB. GUI used memory: 51 MB. Current time: 5/21/19 7:40:53 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,612 MB. GUI used memory: 51 MB. Current time: 5/21/19 7:41:18 PM CST
+// Elapsed time: 249 seconds
+selectCodeEditor("pe_array1x3_lower.v", 232, 429); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 85, 436); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,629 MB (+4281kb) [00:10:51]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,645 MB. GUI used memory: 51 MB. Current time: 5/21/19 7:42:33 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 133 seconds
+selectCodeEditor("pe_array1x3_lower.v", 57, 292); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 19, 282); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,701 MB. GUI used memory: 52 MB. Current time: 5/21/19 7:44:38 PM CST
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 215 seconds
+selectCodeEditor("pe_array1x3_lower.v", 201, 374); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 201, 374); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,702 MB. GUI used memory: 52 MB. Current time: 5/21/19 8:14:38 PM CST
+// Elapsed time: 2382 seconds
+selectCodeEditor("pe_array1x3_lower.v", 149, 178); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 149, 178, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 167, 199); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 148, 153); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 148, 170); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 37, 254); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 5, 269); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 2, 267); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,726 MB (+16710kb) [00:56:34]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,742 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:28:28 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,774 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:28:43 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,806 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:29:13 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,822 MB (+10252kb) [00:57:48]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,838 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:29:33 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 98 seconds
+selectCodeEditor("pe_array1x3_lower.v", 233, 165); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 233, 165, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 229, 155); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_lower.v", 228, 154, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 233, 140); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 233, 140, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 156, 212); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 145, 213); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,870 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:29:48 PM CST
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 146, 331); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 148, 462); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectCodeEditor("pe_array1x3_lower.v", 29, 85); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 6, 87); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,903 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:30:28 PM CST
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,919 MB (+5557kb) [00:58:54]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+selectCodeEditor("pe_array1x3_lower.v", 233, 65); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 233, 65, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 63, 305); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,999 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:31:13 PM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 36 seconds
+selectCodeEditor("pe_array1x3_lower.v", 103, 302); // cd (w, ch)
+// [Engine Memory]: 2,015 MB (+579kb) [00:59:40]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectCodeEditor("pe_array1x3_lower.v", 104, 194); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 104, 194, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 63, 167); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 37, 154); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_lower.v", 148, 175); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 151, 188); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 149, 188); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 270, 233); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 270, 233, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 233, 154); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 233, 154, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 147, 302); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 145, 298); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 148, 409); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_lower.v", 145, 190); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,063 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:31:53 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,095 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:32:23 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,127 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:32:53 PM CST
+// [Engine Memory]: 2,127 MB (+11982kb) [01:01:18]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 108 seconds
+selectCodeEditor("pe_array1x3_lower.v", 12, 469); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 11, 487); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 5, 498); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,160 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:33:38 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,192 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:33:58 PM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 53 seconds
+selectCodeEditor("pe_array1x3_lower.v", 150, 386); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 150, 386, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 141, 401); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 141, 401, false, false, false, false, true); // cd (w, ch) - Double Click
+// [Engine Memory]: 2,240 MB (+6922kb) [01:02:56]
+selectCodeEditor("pe_array1x3_lower.v", 156, 397); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 237, 258); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 237, 258, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 146, 393); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,256 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:34:43 PM CST
+selectCodeEditor("pe_array1x3_lower.v", 185, 91); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 185, 91, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 181, 83); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 181, 83, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 147, 409); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 180, 202); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 180, 202, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 143, 426); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 148, 429); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 155, 433); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 155, 433, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 239, 322); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 239, 322, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 299, 321); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 22 seconds
+selectCodeEditor("pe_array1x3_lower.v", 244, 332); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 244, 332, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 147, 441); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_lower.v", 121, 477); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,288 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:35:28 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 2,353 MB (+720kb) [01:04:14]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,353 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:35:53 PM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 40 seconds
+selectCodeEditor("pe_array1x3_lower.v", 147, 477); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_lower.v", 149, 482); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,417 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:36:08 PM CST
+selectCodeEditor("pe_array1x3_lower.v", 178, 365); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 178, 365, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 149, 491); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_lower.v", 147, 432); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_lower.v", 196, 314); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 196, 314, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 197, 324); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 197, 324, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 225, 231); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 225, 231, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 231, 248); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 231, 248, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 234, 262); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 234, 262, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 234, 244); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 234, 244, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 235, 243); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 235, 243, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 225, 261); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 225, 261, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 150, 430); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_lower.v", 203, 326); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 203, 326, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_lower.v", 144, 449); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 2,481 MB (+10887kb) [01:05:04]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v)]", 2); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), adder_2 : adder17_16 (adder17_16.xci)]", 7, false); // B (D, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,481 MB. GUI used memory: 46 MB. Current time: 5/21/19 8:36:43 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), adder_2 : adder17_16 (adder17_16.xci)]", 7, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), adder_2 : adder17_16 (adder17_16.xci)]", 7, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// r (ch): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (ch)
+selectCodeEditor("pe_array1x3_lower.v", 162, 432); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 162, 432, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 148, 457); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 273, 175); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 273, 175, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 147, 458); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_lower.v", 34, 153); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,550 MB. GUI used memory: 51 MB. Current time: 5/21/19 8:37:48 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 58 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), multer_1 : mult8_8 (mult8_8.xci)]", 4, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), multer_0 : mult8_8 (mult8_8.xci)]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), multer_1 : mult8_8 (mult8_8.xci)]", 4, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v)]", 2, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), multer_0 : mult8_8 (mult8_8.xci)]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), multer_1 : mult8_8 (mult8_8.xci)]", 4, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), multer_0 : mult8_8 (mult8_8.xci)]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), multer_1 : mult8_8 (mult8_8.xci)]", 4, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), multer_0 : mult8_8 (mult8_8.xci)]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), multer_0 : mult8_8 (mult8_8.xci)]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), multer_0 : mult8_8 (mult8_8.xci)]", 3, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ch): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // aX (C, r)
+dismissDialog("Re-customize IP"); // r (ch)
+selectCodeEditor("pe_array1x3_lower.v", 220, 170); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,584 MB. GUI used memory: 52 MB. Current time: 5/21/19 8:38:28 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 2,616 MB (+11337kb) [01:07:30]
+// Elapsed time: 50 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), adder_1 : adder16_16 (adder16_16.xci)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), adder_1 : adder16_16 (adder16_16.xci)]", 6, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ch): Re-customize IP: addNotify
+selectComboBox("Latency Configuration (Latency_Configuration)", "Manual", 1); // bL (C, r)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,617 MB. GUI used memory: 58 MB. Current time: 5/21/19 8:39:08 PM CST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Re-customize IP"); // r (ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Latency_Configuration {Manual} CONFIG.Latency {1}] [get_ips adder16_16] 
+// TclEventType: FILE_SET_CHANGE
+// aJ (ch): Generate Output Products: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aJ)
+// bv (ch):  Managing Output Products : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  /home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/ip/adder16_16/adder16_16.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'adder16_16'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'adder16_16'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'adder16_16'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'adder16_16'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all adder16_16] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/ip/adder16_16/adder16_16.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run adder16_16_synth_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 2 adder16_16_synth_1 
+// Tcl Message: [Tue May 21 20:39:12 2019] Launched adder16_16_synth_1... Run output will be captured here: /home/dai/vgg16.sparse.5x/vgg16.sparse.5x.runs/adder16_16_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (A, G)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), adder_2 : adder17_16 (adder17_16.xci)]", 7, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), adder_2 : adder17_16 (adder17_16.xci)]", 7, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ch): Re-customize IP: addNotify
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Control", 1); // cI (C, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // cI (C, r)
+dismissDialog("Re-customize IP"); // r (ch)
+// [GUI Memory]: 113 MB (+276kb) [01:07:58]
+// Elapsed time: 17 seconds
+selectCodeEditor("pe_array1x3_lower.v", 121, 261); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 121, 261, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 188, 253); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 188, 253, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, ch) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, pe_array1x3_upper.v]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, pe_array1x3_upper.v]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, pe_array1x3_upper.v]", 3, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_lower.v", 1); // k (j, ch)
+selectCodeEditor("pe_array1x3_lower.v", 710, 285); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_upper.v", 2); // k (j, ch)
+typeControlKey((HResource) null, "pe_array1x3_upper.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("pe_array1x3_upper.v", 193, 109); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_upper.v", 249, 109); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,669 MB. GUI used memory: 57 MB. Current time: 5/21/19 8:40:13 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_upper.v", 201, 107); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_upper.v", 201, 107, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 109, 321); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 90, 331); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 88, 330); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,701 MB. GUI used memory: 57 MB. Current time: 5/21/19 8:40:33 PM CST
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_lower.v", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_upper.v", 2); // k (j, ch)
+selectCodeEditor("pe_array1x3_upper.v", 46, 330); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_upper.v", 82, 331); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 2,757 MB (+11023kb) [01:09:30]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,757 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:41:08 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 49 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, pe_array1x3_middle.v]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, pe_array1x3_middle.v]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_upper.v", 2); // k (j, ch)
+selectCodeEditor("pe_array1x3_upper.v", 665, 290); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_upper.v", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_middle.v", 3); // k (j, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 215, 110); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 243, 111); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,846 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:41:43 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 678, 303); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 2,902 MB (+6788kb) [01:10:44]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,902 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:42:23 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 120 MB (+1613kb) [01:11:10]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,934 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:42:48 PM CST
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,998 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:43:18 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 123 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_lower.v", 1); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,062 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:43:53 PM CST
+// [Engine Memory]: 3,062 MB (+15624kb) [01:12:18]
+selectCodeEditor("pe_array1x3_lower.v", 100, 338); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 100, 338, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 93, 369); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 93, 369, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_lower.v", 138, 291); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 138, 291, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_middle.v", 3); // k (j, ch)
+selectCodeEditor("pe_array1x3_middle.v", 206, 447); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 208, 446); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,094 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:44:23 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,126 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:45:03 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,158 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:45:28 PM CST
+// Elapsed time: 110 seconds
+selectCodeEditor("pe_array1x3_middle.v", 149, 412); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,190 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:46:08 PM CST
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_lower.v", 1); // k (j, ch)
+selectCodeEditor("pe_array1x3_lower.v", 12, 475); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 110, 479); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 67, 475); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_middle.v", 3); // k (j, ch)
+selectCodeEditor("pe_array1x3_middle.v", 12, 456); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 199, 259); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 199, 259, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 194, 253); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 194, 253, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 1, 338); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 3,222 MB (+7464kb) [01:14:56]
+// HMemoryUtils.trashcanNow. Engine heap size: 3,222 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:46:33 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,254 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:47:13 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,302 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:47:33 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 72 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_upper.v", 2); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_lower.v", 1); // k (j, ch)
+selectCodeEditor("pe_array1x3_lower.v", 396, 322); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 517, 234); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_middle.v", 3); // k (j, ch)
+selectCodeEditor("pe_array1x3_middle.v", 33, 373); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_middle.v", 192, 369); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 216, 356); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 223, 357); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,334 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:47:53 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 249, 372); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 186, 299); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 186, 299, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 35, 224); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,366 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:48:08 PM CST
+selectCodeEditor("pe_array1x3_middle.v", 21, 224); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 3, 222); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 198, 233); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 3,398 MB (+16329kb) [01:16:58]
+// HMemoryUtils.trashcanNow. Engine heap size: 3,398 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:48:33 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,431 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:48:53 PM CST
+// Elapsed time: 102 seconds
+selectCodeEditor("pe_array1x3_middle.v", 188, 393); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 172, 375); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 172, 375, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("pe_array1x3_middle.v", 175, 387); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 175, 387, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 246, 414); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 247, 414, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 246, 430); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 246, 430, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 246, 415); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 246, 415, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 0, 477); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 35 seconds
+selectCodeEditor("pe_array1x3_middle.v", 204, 455); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 204, 455, false, false, false, false, true); // cd (w, ch) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 3,463 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:50:58 PM CST
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 228, 222); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 228, 222, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,495 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:51:18 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 229 seconds
+selectCodeEditor("pe_array1x3_middle.v", 115, 470); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 168, 419); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 168, 419, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 102, 352); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 87, 342); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 87, 342, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 56, 332); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 56, 332, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 45, 419); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 32, 426); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 11, 444); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,559 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:55:03 PM CST
+selectCodeEditor("pe_array1x3_middle.v", 261, 393); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 261, 393, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 334, 388); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 3,575 MB (+6410kb) [01:23:43]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,591 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:55:28 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 39 seconds
+selectCodeEditor("pe_array1x3_middle.v", 64, 326); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 64, 326, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 189, 361); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 189, 361, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 219, 376); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 216, 366); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 213, 160); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 216, 363); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 62, 320); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 80, 317); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 49, 322); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,654 MB. GUI used memory: 65 MB. Current time: 5/21/19 8:55:58 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("pe_array1x3_middle.v", 55, 266); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 55, 266, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), adder_2 : adder17_16 (adder17_16.xci)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, adder18_19 (adder18_19.xci)]", 8, false); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_middle (pe_array1x3_middle.v)]", 7); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_middle (pe_array1x3_middle.v), adder_2 : adder17_16 (adder17_16.xci)]", 12, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_middle (pe_array1x3_middle.v), adder_2 : adder17_16 (adder17_16.xci)]", 12, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ch): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_middle (pe_array1x3_middle.v), adder_1 : adder16_16 (adder16_16.xci)]", 11, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_middle (pe_array1x3_middle.v), adder_1 : adder16_16 (adder16_16.xci)]", 11, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ch): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (ch)
+selectCodeEditor("pe_array1x3_middle.v", 181, 372); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 181, 372, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 181, 372); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 181, 372, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 209, 384); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 209, 384, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 153, 401); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 153, 401, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 162, 380); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 162, 380, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 194, 365); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 194, 365, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 183, 264); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 183, 264, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 183, 264); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 183, 264, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 226, 248); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 224, 248); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 221, 248); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 208, 247); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 214, 247); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 214, 247); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 214, 247, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 172, 286); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 172, 286, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 170, 275); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 170, 275, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_middle.v", 199, 383); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 199, 383, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 198, 364); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 231, 368); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 323, 317); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 323, 317, false, false, false, false, true); // cd (w, ch) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 3,751 MB. GUI used memory: 70 MB. Current time: 5/21/19 8:57:23 PM CST
+selectCodeEditor("pe_array1x3_middle.v", 324, 310); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 324, 310, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 198, 386); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 198, 386, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_middle.v", 179, 372); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 179, 372, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 175, 407); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 175, 407, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 167, 401); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 167, 401, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 177, 357); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 177, 357, false, false, false, false, true); // cd (w, ch) - Double Click
+// [Engine Memory]: 3,767 MB (+14853kb) [01:25:55]
+selectCodeEditor("pe_array1x3_middle.v", 227, 305); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 227, 305, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 244, 177); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 243, 176, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 314, 228); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 296, 218); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 224, 342); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 224, 354); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,783 MB. GUI used memory: 71 MB. Current time: 5/21/19 8:57:43 PM CST
+selectCodeEditor("pe_array1x3_middle.v", 53, 221); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 53, 221, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 65, 212); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 65, 212, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 21, 195); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,815 MB. GUI used memory: 70 MB. Current time: 5/21/19 8:58:18 PM CST
+// Elapsed time: 31 seconds
+selectCodeEditor("pe_array1x3_middle.v", 96, 234); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 96, 234, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 111, 253); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,847 MB. GUI used memory: 69 MB. Current time: 5/21/19 8:58:43 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 42 seconds
+selectCodeEditor("pe_array1x3_middle.v", 64, 318); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_middle.v", 59, 345); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,911 MB. GUI used memory: 69 MB. Current time: 5/21/19 8:59:08 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 3,959 MB (+3670kb) [01:27:56]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,975 MB. GUI used memory: 69 MB. Current time: 5/21/19 8:59:48 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,007 MB. GUI used memory: 69 MB. Current time: 5/21/19 9:00:03 PM CST
+// Elapsed time: 64 seconds
+selectCodeEditor("pe_array1x3_middle.v", 57, 375); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 57, 375, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 59, 362); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 59, 362, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 34, 419); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,039 MB. GUI used memory: 69 MB. Current time: 5/21/19 9:00:23 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 37 seconds
+selectCodeEditor("pe_array1x3_middle.v", 171, 442); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 58, 444); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 87, 447); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,087 MB. GUI used memory: 69 MB. Current time: 5/21/19 9:00:53 PM CST
+selectCodeEditor("pe_array1x3_middle.v", 89, 446); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_middle.v", 168, 439); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 172, 437); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_middle.v", 157, 408); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 73, 383); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,135 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:01:13 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 4,167 MB (+10505kb) [01:30:03]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,167 MB. GUI used memory: 69 MB. Current time: 5/21/19 9:01:38 PM CST
+// Elapsed time: 26 seconds
+selectCodeEditor("pe_array1x3_middle.v", 177, 453); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 0, 458); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 65, 433); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 64, 433, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 55, 418); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 55, 418, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 59, 401); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 59, 401, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 59, 401); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 59, 401, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 59, 401); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 59, 401, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 220, 439); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 146, 281); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,231 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:02:13 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 126 MB (+110kb) [01:30:49]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,263 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:02:43 PM CST
+// Elapsed time: 39 seconds
+selectCodeEditor("pe_array1x3_middle.v", 191, 380); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 191, 380, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 168, 358, false, true, false, false, false); // cd (w, ch) - Control Key
+selectCodeEditor("pe_array1x3_middle.v", 168, 358, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 185, 360); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 185, 360, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 71, 332); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 71, 332, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 131, 341); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 127, 341); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 127, 341); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 127, 341, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("pe_array1x3_middle.v", 173, 355); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 173, 355, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 363 seconds
+selectCodeEditor("pe_array1x3_middle.v", 178, 356); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 178, 356, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 189, 366); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 189, 366, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 185, 355); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 185, 355, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 178, 373); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 178, 373, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 174, 348, false, true, false, false, false); // cd (w, ch) - Control Key
+selectCodeEditor("pe_array1x3_middle.v", 174, 348, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 175, 372); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 175, 372, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 175, 377); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 175, 377, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 177, 204); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 177, 204, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 175, 220); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 175, 220, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 59, 170); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,295 MB. GUI used memory: 69 MB. Current time: 5/21/19 9:09:53 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,327 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:10:13 PM CST
+// Elapsed time: 49 seconds
+selectCodeEditor("pe_array1x3_middle.v", 202, 184); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 193, 186); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,359 MB. GUI used memory: 69 MB. Current time: 5/21/19 9:10:48 PM CST
+// Elapsed time: 33 seconds
+selectCodeEditor("pe_array1x3_middle.v", 272, 114); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 287, 88); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 287, 88, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 284, 104); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 284, 104, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 102, 446); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 68, 453); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 4,391 MB (+16434kb) [01:39:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,391 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:11:03 PM CST
+// Elapsed time: 14 seconds
+selectCodeEditor("pe_array1x3_middle.v", 226, 359); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 226, 359, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 222, 367); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 222, 367, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 222, 367); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 222, 367, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 222, 367); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 222, 367); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 222, 367); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 222, 367); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 232, 358); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 232, 358, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 160, 336); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 154, 330); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 154, 330, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 157, 320); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 157, 320, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 203, 320); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 203, 320, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 179, 320); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 179, 320, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_upper.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_lower.v", 1); // k (j, ch)
+selectCodeEditor("pe_array1x3_lower.v", 217, 286); // cd (w, ch)
+selectCodeEditor("pe_array1x3_lower.v", 217, 286, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_middle.v", 3); // k (j, ch)
+selectCodeEditor("pe_array1x3_middle.v", 171, 317); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 171, 317, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 176, 306); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 176, 306, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 47 seconds
+selectCodeEditor("pe_array1x3_middle.v", 239, 318); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 237, 226); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 237, 226, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 237, 226); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 237, 226, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 237, 216); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 237, 216, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 53 seconds
+selectCodeEditor("pe_array1x3_middle.v", 261, 73); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 261, 73, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 93, 274); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectCodeEditor("pe_array1x3_middle.v", 123, 197); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 123, 197, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 73, 174); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,424 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:13:38 PM CST
+selectCodeEditor("pe_array1x3_middle.v", 44, 159); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 234, 107); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 234, 107, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 240, 128); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 240, 128, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 297, 129); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectCodeEditor("pe_array1x3_middle.v", 274, 159); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 274, 159, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 278, 148); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 282, 144); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,472 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:13:58 PM CST
+selectCodeEditor("pe_array1x3_middle.v", 220, 286); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 217, 275); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("pe_array1x3_middle.v", 234, 276); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 234, 276, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 233, 275); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 117, 279); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_middle.v", 196, 286); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,504 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:14:18 PM CST
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 203, 279); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_middle.v", 127, 291); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,568 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:14:43 PM CST
+// Elapsed time: 29 seconds
+selectCodeEditor("pe_array1x3_middle.v", 272, 295); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 272, 295, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 166, 321); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,616 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:15:13 PM CST
+// [Engine Memory]: 4,616 MB (+4793kb) [01:43:39]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 28 seconds
+selectCodeEditor("pe_array1x3_middle.v", 283, 120); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 283, 120, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 280, 113); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 280, 113, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 38, 461); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 345, 158); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 345, 158, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 247, 317); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,664 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:15:33 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 279, 278); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 279, 278, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 120, 278); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 120, 278, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 115, 369); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 276, 50); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 276, 50, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 39, 357); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 39, 357, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 303, 77); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 303, 96); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 303, 96, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 171, 344); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 187, 344); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 190, 349); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,728 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:15:53 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 59 seconds
+selectCodeEditor("pe_array1x3_middle.v", 110, 222); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 110, 222, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 181, 386); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 181, 386, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_middle.v", 215, 355); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 215, 355, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_middle.v", 199, 359); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 199, 359, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 140, 248); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 140, 248, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 96, 236); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 96, 236, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 221, 236); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,760 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:17:03 PM CST
+selectCodeEditor("pe_array1x3_middle.v", 197, 236); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 311, 104); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 317, 129); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 317, 129, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 248, 184); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 96, 242); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 96, 242, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_middle.v", 72, 312); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 72, 312, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 201, 234); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_middle.v", 269, 232); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 269, 232, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_middle.v", 172, 232); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 172, 232, false, false, false, false, true); // cd (w, ch) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 4,792 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:17:18 PM CST
+// Elapsed time: 17 seconds
+selectCodeEditor("pe_array1x3_middle.v", 281, 314); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 281, 314, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_upper.v", 2); // k (j, ch)
+selectCodeEditor("pe_array1x3_upper.v", 62, 362); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 62, 362, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 61, 356); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 61, 356, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 48, 371); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 41, 379); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,824 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:18:08 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 4,856 MB (+9735kb) [01:46:41]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,888 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:18:43 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,925 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:18:59 PM CST
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 94 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_middle.v", 2); // k (j, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,984 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:19:18 PM CST
+selectCodeEditor("pe_array1x3_middle.v", 149, 304); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_upper.v", 3); // k (j, ch)
+selectCodeEditor("pe_array1x3_upper.v", 266, 451); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 275, 448); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 255, 443); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,016 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:19:38 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,048 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:20:03 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,080 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:20:23 PM CST
+// Elapsed time: 62 seconds
+selectCodeEditor("pe_array1x3_upper.v", 14, 455); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_middle.v", 2); // k (j, ch)
+selectCodeEditor("pe_array1x3_middle.v", 79, 422); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_upper.v", 3); // k (j, ch)
+selectCodeEditor("pe_array1x3_upper.v", 5, 465); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_upper.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 5,112 MB (+13900kb) [01:49:11]
+selectCodeEditor("pe_array1x3_upper.v", 183, 455); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 183, 455, false, false, false, false, true); // cd (w, ch) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 5,112 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:20:48 PM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_middle.v", 2); // k (j, ch)
+selectCodeEditor("pe_array1x3_middle.v", 23, 220); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_upper.v", 3); // k (j, ch)
+selectCodeEditor("pe_array1x3_upper.v", 6, 286); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 6, 279); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_upper.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_upper.v", 81, 475); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 62, 489); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,144 MB. GUI used memory: 70 MB. Current time: 5/21/19 9:21:13 PM CST
+// Elapsed time: 32 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_middle.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_upper.v", 3); // k (j, ch)
+// Elapsed time: 63 seconds
+selectCodeEditor("pe_array1x3_upper.v", 113, 288); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 113, 288, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 216, 295); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 216, 295, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 471, 289); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 535, 288); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 600, 288); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 265, 193); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 224, 134); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 206, 116); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 206, 116, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 306, 115); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 233, 115); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 364, 115); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 388, 118); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 330, 179); // cd (w, ch)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 25 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "pe_array3x3"); // X (Q, F)
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "Choose Location...", 1); // e (Q, F)
+setFolderChooser("/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/sources");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 41 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open /home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/sources/pe_array3x3.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/sources/pe_array3x3.v 
+// I (ch): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,179 MB. GUI used memory: 71 MB. Current time: 5/21/19 9:23:54 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, adder18_19 (adder18_19.xci)]", 9, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, adder_hfp (adder_hfp.xci)]", 10, false); // B (D, ch)
+selectCodeEditor("pe_array1x3_upper.v", 69, 377); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_upper.v", 106, 378); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 106, 378, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_upper.v", 105, 379); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 105, 379, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("pe_array1x3_upper.v", 149, 399); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 149, 399, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 159, 397); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 172, 398); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 172, 398, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 160, 401); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 160, 401, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 159, 431); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 159, 431, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 165, 411); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 165, 411, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 169, 442); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 169, 442, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 164, 468); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 164, 468, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 162, 461); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 162, 461, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 155, 454); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 155, 454, false, true, false, false, true); // cd (w, ch) - Control Key - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 155, 454); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 164, 435); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 164, 435, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 176, 412, false, true, false, false, false); // cd (w, ch) - Control Key
+selectCodeEditor("pe_array1x3_upper.v", 176, 412, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 154, 394); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 154, 394, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 177, 428); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 177, 428, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 182, 414); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 182, 414, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 189, 436); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 189, 436, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 183, 428); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 183, 428, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 157, 395); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 157, 395, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 125, 395); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 125, 395, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 45, 407); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 44, 408, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 32, 392); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 32, 418); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_upper.v", 308, 241); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 308, 241, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,227 MB. GUI used memory: 71 MB. Current time: 5/21/19 9:24:53 PM CST
+selectCodeEditor("pe_array1x3_upper.v", 157, 443); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_upper.v", 171, 440); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 177, 422); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_upper.v", 177, 422, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 198, 326); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 198, 326, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 190, 313); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 190, 313, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 198, 444); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 198, 444, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 105, 196); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 105, 196, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 98, 219); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 98, 219, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, adder_hfp (adder_hfp.xci)]", 9, false); // B (D, ch)
+selectCodeEditor("pe_array1x3_upper.v", 210, 444); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 210, 444, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 173, 421); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 173, 421, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 171, 406); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 171, 406, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 162, 394); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 162, 394, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 137 seconds
+selectCodeEditor("pe_array1x3_upper.v", 157, 398); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 157, 398, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 197, 411); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 197, 411, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 209, 431); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 209, 431, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 201, 416); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 201, 416, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 174, 283); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 174, 283, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 164, 264); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 163, 263, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 127, 399); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 126, 400, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 111, 367); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 111, 367, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 111, 367); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 111, 367, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 99, 371); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 99, 371, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 90, 384); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 90, 384, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 69, 394); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 69, 394, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 300, 249); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 234, 217); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 234, 217, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 233, 214); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 233, 214, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_middle.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_lower.v", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 12); // B (D, ch)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 12); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 12); // B (D, ch)
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (ch):  Re-customize IP : addNotify
+// r (ch): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // O (ch)
+dismissDialog("Re-customize IP"); // r (ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 13); // B (D, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,259 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:28:04 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, pe_array3x3 (pe_array3x3.v)]", 18, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, pe_array1x3_middle (pe_array1x3_middle.v)]", 15, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, pe_array1x3_upper (pe_array1x3_upper.v)]", 16, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, pe_array1x3_lower (pe_array1x3_lower.v)]", 14, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "Choose Location...", 1); // e (Q, F)
+setFolderChooser("/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/sim");
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "Choose Location...", 2); // e (Q, F)
+setFolderChooser("/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/sim");
+// Elapsed time: 19 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "pe_array1x3_tb"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+// Elapsed time: 14 seconds
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 57 seconds
+dismissDialog("Add Sources"); // c (ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: close [ open /home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/sim/pe_array1x3_tb.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 /home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/sim/pe_array1x3_tb.v 
+// I (ch): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,283 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:29:14 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, pe_array1x3_upper (pe_array1x3_upper.v)]", 16, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, adder_hfp (adder_hfp.xci)]", 17, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, pe_array1x3_upper (pe_array1x3_upper.v)]", 16, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, pe_array1x3_middle (pe_array1x3_middle.v)]", 15, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_upper (pe_array1x3_upper.v)]", 8, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_middle (pe_array1x3_middle.v)]", 7, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), multer_2 : mult8_8 (mult8_8.xci)]", 4, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), multer_0 : mult8_8 (mult8_8.xci)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pe_array1x3_lower (pe_array1x3_lower.v), adder_2 : adder17_16 (adder17_16.xci)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, pe_array1x3_tb (pe_array1x3_tb.v)]", 18, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, pe_array1x3_tb (pe_array1x3_tb.v)]", 18, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, pe_array1x3_tb (pe_array1x3_tb.v)]", 18, false); // B (D, ch)
+selectCodeEditor("pe_array1x3_tb.v", 30, 367); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 36, 367); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,308 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:29:54 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 26 seconds
+selectCodeEditor("pe_array1x3_tb.v", 22, 405); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 17, 400); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,332 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:30:28 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,356 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:31:03 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 66 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_upper.v", 3); // k (j, ch)
+selectCodeEditor("pe_array1x3_upper.v", 272, 258); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 272, 258, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_upper.v", 275, 241); // cd (w, ch)
+selectCodeEditor("pe_array1x3_upper.v", 275, 241, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_tb.v", 4); // k (j, ch)
+selectCodeEditor("pe_array1x3_tb.v", 18, 452); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 5,372 MB (+4522kb) [01:59:46]
+// [GUI Memory]: 134 MB (+854kb) [01:59:47]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,380 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:31:23 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,412 MB. GUI used memory: 79 MB. Current time: 5/21/19 9:31:58 PM CST
+// Elapsed time: 52 seconds
+selectCodeEditor("pe_array1x3_tb.v", 47, 461); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 47, 461, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 53, 488); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,436 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:32:23 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 31 seconds
+selectCodeEditor("pe_array1x3_tb.v", 200, 286); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 200, 286, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 41, 473); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 41, 473, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,460 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:33:13 PM CST
+// Elapsed time: 40 seconds
+selectCodeEditor("pe_array1x3_tb.v", 98, 474); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 98, 474, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 88, 512); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 97, 454); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 58, 447); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 167, 451); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 135, 449); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 135, 449, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 108, 434); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 108, 434, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 98, 455); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 95, 448); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 95, 448, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 95, 407); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 95, 407, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 83, 431); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 83, 431, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 66, 463); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 55, 474); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 60, 456); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 90, 431); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 64, 295); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,484 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:33:43 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,507 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:34:18 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 56 seconds
+selectCodeEditor("pe_array1x3_tb.v", 268, 329); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 268, 329, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("pe_array1x3_tb.v", 65, 357); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 58, 473); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_lower.v", 1); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_lower.v", 84, 371); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_lower.v", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_tb.v", 4); // k (j, ch)
+selectCodeEditor("pe_array1x3_tb.v", 22, 484); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 30, 275); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 30, 275, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 30, 275); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 47, 284); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 47, 284, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 51, 293); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 51, 293, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,539 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:35:13 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,563 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:35:33 PM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 22 seconds
+selectCodeEditor("pe_array1x3_tb.v", 252, 325); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 18, 326); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 30, 327); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,587 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:35:53 PM CST
+// Elapsed time: 17 seconds
+selectCodeEditor("pe_array1x3_tb.v", 28, 335); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 72, 340); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 26, 356); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 28, 373); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 29, 401); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 28, 413); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 96, 352); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 106, 373); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 125, 403); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,611 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:36:18 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 104, 409); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 31, 478); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 28, 478); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 35, 475); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 263, 396); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 206, 206); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 206, 206, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 175, 422); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 240, 80); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 240, 80, false, false, false, false, true); // cd (w, ch) - Double Click
+// [Engine Memory]: 5,643 MB (+3137kb) [02:05:05]
+selectCodeEditor("pe_array1x3_tb.v", 249, 135); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 249, 135, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 177, 400); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 128, 445); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 65, 253); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,667 MB. GUI used memory: 79 MB. Current time: 5/21/19 9:37:03 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 40 seconds
+selectCodeEditor("pe_array1x3_tb.v", 105, 218); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 105, 218, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 51, 276); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 249, 284); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 131, 189); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 131, 189, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 122, 298); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,691 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:37:38 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 202, 293); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 166, 300); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 125, 316); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 172, 297); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 47, 322); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,739 MB. GUI used memory: 79 MB. Current time: 5/21/19 9:37:58 PM CST
+selectCodeEditor("pe_array1x3_tb.v", 93, 283); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 93, 283, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 92, 285); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 92, 285, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 50, 323); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 184, 317); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 17 seconds
+selectCodeEditor("pe_array1x3_tb.v", 129, 318); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 122, 321); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 94, 333); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,763 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:38:23 PM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 162, 391); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 162, 391, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 244, 401); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 244, 401, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 242, 332); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 242, 332, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_upper.v", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_middle.v", 2); // k (j, ch)
+selectCodeEditor("pe_array1x3_middle.v", 253, 196); // cd (w, ch)
+selectCodeEditor("pe_array1x3_middle.v", 96, 381); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_middle.v", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_tb.v", 4); // k (j, ch)
+selectCodeEditor("pe_array1x3_tb.v", 24, 467); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 45, 299); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 45, 299, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 99, 297); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,787 MB. GUI used memory: 79 MB. Current time: 5/21/19 9:38:43 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 161, 290); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 249, 323); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 255, 322); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 250, 342); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,811 MB. GUI used memory: 79 MB. Current time: 5/21/19 9:39:03 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 250, 353); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 254, 369); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 250, 382); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 254, 399); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 251, 431); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 253, 447); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,859 MB. GUI used memory: 79 MB. Current time: 5/21/19 9:39:28 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 59, 327); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,907 MB. GUI used memory: 79 MB. Current time: 5/21/19 9:40:03 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,931 MB (+5781kb) [02:08:38]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 51 seconds
+selectCodeEditor("pe_array1x3_tb.v", 216, 227); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 213, 222); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 213, 222, false, false, false, false, true); // cd (w, ch) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 5,955 MB. GUI used memory: 79 MB. Current time: 5/21/19 9:40:23 PM CST
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 231, 393); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 234, 442); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 335, 413); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 335, 413, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 232, 445); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 18, 478); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_middle.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_upper.v", 3); // k (j, ch)
+selectCodeEditor("pe_array1x3_upper.v", 23, 307); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_upper.v", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pe_array1x3_tb.v", 4); // k (j, ch)
+selectCodeEditor("pe_array1x3_tb.v", 3, 319); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 12, 312); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 8, 322); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("pe_array1x3_tb.v", 22, 475); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 14, 492); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 5,979 MB. GUI used memory: 80 MB. Current time: 5/21/19 9:40:59 PM CST
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 52, 367); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 52, 367, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 231, 370); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 63, 354); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 63, 354, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 28, 310); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 28, 310, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 78, 132); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 78, 132, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'c'); // cd (w, ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("pe_array1x3_tb.v", 6, 341); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 248, 350); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 254, 354); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 251, 369); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 6,035 MB. GUI used memory: 79 MB. Current time: 5/21/19 9:41:23 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 58, 355); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 255, 383); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 255, 402); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 249, 412); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 250, 412); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 253, 426); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 247, 454); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 249, 474); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 35, 458); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 39, 457); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 170, 358); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 6,059 MB. GUI used memory: 79 MB. Current time: 5/21/19 9:41:53 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 6,091 MB. GUI used memory: 79 MB. Current time: 5/21/19 9:42:13 PM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 6,115 MB. GUI used memory: 79 MB. Current time: 5/21/19 9:42:28 PM CST
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 36 seconds
+selectCodeEditor("pe_array1x3_tb.v", 235, 355); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 232, 354, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 236, 345); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 229, 354); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 231, 361); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 303, 154); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 303, 154, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 246, 371); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 246, 371, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 255, 371); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 6,139 MB. GUI used memory: 78 MB. Current time: 5/21/19 9:42:43 PM CST
+selectCodeEditor("pe_array1x3_tb.v", 255, 371, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 321, 219); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 321, 219, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 232, 421); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pe_array1x3_tb.v", 313, 257); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("pe_array1x3_tb.v", 303, 246); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 303, 246, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 232, 448); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 234, 457); // cd (w, ch)
+typeControlKey((HResource) null, "pe_array1x3_tb.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("pe_array1x3_tb.v", 317, 460); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 317, 460, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 313, 463); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 313, 463, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 313, 463); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 313, 463, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("pe_array1x3_tb.v", 313, 463); // cd (w, ch)
+selectCodeEditor("pe_array1x3_tb.v", 313, 463, false, false, false, false, true); // cd (w, ch) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 6,171 MB. GUI used memory: 79 MB. Current time: 5/21/19 10:12:44 PM CST

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7vx690tffg1761-2" LaunchTime="1558532810">
+  <File Type="VDS-TIMING-PB" Name="pe_array3x3_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="pe_array3x3_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="pe_array3x3.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="pe_array3x3_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="pe_array3x3_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="pe_array3x3_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="pe_array3x3.vds"/>
+  <File Type="REPORTS-TCL" Name="pe_array3x3_reports.tcl"/>
+  <File Type="PA-TCL" Name="pe_array3x3.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/sources/fixed_2_float.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/sources/lzc.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/sources/pe_array1x3_lower.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/sources/pe_array1x3_middle.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/sources/pe_array1x3_upper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/sources/pe_array3x3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="pe_array3x3"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="adder18_19"/>
+  <BlockFileSet Type="BlockSrcs" Name="adder18_18"/>
+  <BlockFileSet Type="BlockSrcs" Name="adder17_16"/>
+  <BlockFileSet Type="BlockSrcs" Name="adder16_16"/>
+  <BlockFileSet Type="BlockSrcs" Name="adder_hfp"/>
+  <BlockFileSet Type="BlockSrcs" Name="mult8_8"/>
+</GenRun>

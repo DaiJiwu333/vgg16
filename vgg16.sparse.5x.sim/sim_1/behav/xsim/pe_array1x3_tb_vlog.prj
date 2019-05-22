@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../vgg16.sparse.5x.srcs/sources_1/new/fixed_2_float.v" \
+"../../../../vgg16.sparse.5x.srcs/sources_1/sources/lzc.v" \
+"../../../../vgg16.sparse.5x.srcs/sources_1/sources/pe_array1x3_lower.v" \
+"../../../../vgg16.sparse.5x.srcs/sources_1/sources/pe_array1x3_middle.v" \
+"../../../../vgg16.sparse.5x.srcs/sources_1/sources/pe_array1x3_upper.v" \
+"../../../../vgg16.sparse.5x.srcs/sources_1/sim/pe_array1x3_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

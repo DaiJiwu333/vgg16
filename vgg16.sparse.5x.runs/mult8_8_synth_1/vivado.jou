@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue May 21 07:24:13 2019
+# Process ID: 2207795
+# Current directory: /home/daijw/vgg16.sparse.5x/vgg16.sparse.5x.runs/mult8_8_synth_1
+# Command line: vivado -log mult8_8.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult8_8.tcl
+# Log file: /home/daijw/vgg16.sparse.5x/vgg16.sparse.5x.runs/mult8_8_synth_1/mult8_8.vds
+# Journal file: /home/daijw/vgg16.sparse.5x/vgg16.sparse.5x.runs/mult8_8_synth_1/vivado.jou
+#-----------------------------------------------------------
+source mult8_8.tcl -notrace

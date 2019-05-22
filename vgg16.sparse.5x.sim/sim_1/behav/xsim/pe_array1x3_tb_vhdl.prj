@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../vgg16.sparse.5x.srcs/sources_1/ip/adder18_19/sim/adder18_19.vhd" \
+"../../../../vgg16.sparse.5x.srcs/sources_1/ip/adder17_16/sim/adder17_16.vhd" \
+"../../../../vgg16.sparse.5x.srcs/sources_1/ip/adder16_16/sim/adder16_16.vhd" \
+"../../../../vgg16.sparse.5x.srcs/sources_1/ip/mult8_8/sim/mult8_8.vhd" \
+"../../../../vgg16.sparse.5x.srcs/sources_1/ip/adder18_18/sim/adder18_18.vhd" \
+
+# Do not sort compile order
+nosort

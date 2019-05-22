@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="adder18_18_synth_1" LaunchPart="xc7vx690tffg1761-2" LaunchTime="1558437812">
+  <File Type="PA-TCL" Name="adder18_18.tcl"/>
+  <File Type="RDS-DCP" Name="adder18_18.dcp"/>
+  <File Type="REPORTS-TCL" Name="adder18_18_reports.tcl"/>
+  <File Type="RDS-RDS" Name="adder18_18.vds"/>
+  <File Type="RDS-UTIL-PB" Name="adder18_18_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="adder18_18_utilization_synth.rpt"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/adder18_18">
+    <File Path="$PSRCDIR/sources_1/ip/adder18_18/adder18_18.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="adder18_18"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/adder18_18">
+    <File Path="$PSRCDIR/sources_1/ip/adder18_18/adder18_18.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="adder18_18"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

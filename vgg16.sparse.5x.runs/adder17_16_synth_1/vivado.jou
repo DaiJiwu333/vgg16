@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue May 21 07:23:24 2019
+# Process ID: 2197051
+# Current directory: /home/daijw/vgg16.sparse.5x/vgg16.sparse.5x.runs/adder17_16_synth_1
+# Command line: vivado -log adder17_16.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adder17_16.tcl
+# Log file: /home/daijw/vgg16.sparse.5x/vgg16.sparse.5x.runs/adder17_16_synth_1/adder17_16.vds
+# Journal file: /home/daijw/vgg16.sparse.5x/vgg16.sparse.5x.runs/adder17_16_synth_1/vivado.jou
+#-----------------------------------------------------------
+source adder17_16.tcl -notrace

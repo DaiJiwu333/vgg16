@@ -1,0 +1,11 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+Stopped at time : 0 fs : File "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/new/fixed_2_float.v" Line 82
+Stopped at time : 15 ns : File "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/new/fixed_2_float.v" Line 82
+Stopped at time : 15 ns : File "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/new/fixed_2_float.v" Line 82
+Stopped at time : 125 ns : File "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/new/fixed_2_float.v" Line 82
+Stopped at time : 125 ns : File "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/new/fixed_2_float.v" Line 82
+Stopped at time : 135 ns : File "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/new/fixed_2_float.v" Line 82
+Stopped at time : 135 ns : File "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/new/fixed_2_float.v" Line 82
+Stopped at time : 145 ns : File "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/new/fixed_2_float.v" Line 82
+Stopped at time : 145 ns : File "/home/dai/vgg16.sparse.5x/vgg16.sparse.5x.srcs/sources_1/new/fixed_2_float.v" Line 82

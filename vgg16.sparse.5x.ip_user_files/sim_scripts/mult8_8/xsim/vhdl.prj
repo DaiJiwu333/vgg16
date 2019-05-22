@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../vgg16.sparse.5x.srcs/sources_1/ip/mult8_8/sim/mult8_8.vhd" \
+
+nosort
